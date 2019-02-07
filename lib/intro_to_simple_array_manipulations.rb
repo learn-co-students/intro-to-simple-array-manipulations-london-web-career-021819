@@ -48,9 +48,14 @@ def using_flatten(private_colleges_in_newyork)
     private_colleges_in_newyork.flatten
 end
 
-def using_delete(instructors, "Steven")
+def using_delete(instructors, element)
     # removes specific element
-    instructors.delete("Steve")
+    instructors.delete("Steven")
+end
+
+def using_delete_at(famous_robots, number)
+    # removes specific location
+    famous_robots.delete_at(2)
 end
     
 
